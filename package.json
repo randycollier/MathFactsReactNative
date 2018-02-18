@@ -1,0 +1,31 @@
+{
+  "name": "ReactCalculator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "MathFacts": "git+https://github.com/randycollier/MathFacts.git",
+    "lodash": "^4.17.5",
+    "native-base": "^2.3.8",
+    "react": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-elements": "^0.19.0",
+    "react-redux": "^5.0.6",
+    "thunk": "^0.0.1",
+    "webpack-library-starter": "git+https://github.com/krasimir/webpack-library-starter.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
